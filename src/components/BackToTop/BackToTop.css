@@ -1,0 +1,16 @@
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 120px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 10;
+}

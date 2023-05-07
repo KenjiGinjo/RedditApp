@@ -1,0 +1,45 @@
+header {
+  color: var(--color-branding);
+  background: var(--color-foreground);
+  box-shadow: var(--box-shadow);
+  height: 64px;
+  padding: 0 var(--spacing-5);
+}
+
+header .logo {
+  font-weight: 700;
+  padding: var(--spacing-1) 0;
+  grid-column: 1/2;
+  display: flex;
+  align-items: center;
+  font-family: "Lobster", cursive;
+}
+
+header .logo-icon {
+  grid-column: 2/3;
+  margin-right: var(--spacing-1);
+  font-size: 2rem;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  flex-grow: 1;
+  background: var(--color-background-secondary);
+  border: none;
+  padding: var(--spacing-1) var(--spacing-2);
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  border-radius: var(--radius);
+}
+
+.search button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text-secondary);
+  font-size: 1.5rem;
+}
